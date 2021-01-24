@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './componente/navbar/navbar.component';
 import { FormularioComponent } from './componente/formulario/formulario.component';
 import { Page404Component } from './componente/page404/page404.component';
+import { AnimacionesComponent } from './componente/animaciones/animaciones.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FormularioComponent,
-    Page404Component
+    Page404Component,
+    AnimacionesComponent
   ],
   imports: [
     BrowserModule,
